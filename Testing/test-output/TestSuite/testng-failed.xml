@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginwithValidation(failed)">
+    <classes>
+      <class name="TestPackage.loginwithValidation">
+        <methods>
+          <include name="loginUidPwdBlank"/>
+          <include name="InitBrowser"/>
+          <include name="tearDown"/>
+          <include name="loginpwdBlank"/>
+          <include name="loginWrong"/>
+          <include name="loginuserBlank"/>
+        </methods>
+      </class> <!-- TestPackage.loginwithValidation -->
+    </classes>
+  </test> <!-- loginwithValidation(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
