@@ -50,8 +50,8 @@ public class CreateStudyGroup {
 		
 		Thread.sleep(5000);
 		
-		//WebElement radio1 = driver.findElement(By.xpath("//*[@id=\"privacyDiv"]/td/input[2]"));
-		//radio1.click();
+		WebElement radio1 = driver.findElement(By.xpath("//*[@id=\"privacyDiv"]/td/input[2]"));
+		radio1.click();
 		Thread.sleep(5000);
 		WebElement button2 = driver.findElement(By.xpath("//*[@id=\"StudyGroup\"]/table/tbody/tr[7]/td[2]/input"));
 		button2.click();
